@@ -6,27 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		0392049D2DCBCB7B0006E414 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 039204872DCBCB7A0006E414 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0392048E2DCBCB7A0006E414;
-			remoteInfo = "rive-ios-nested-artboard";
-		};
-		039204A72DCBCB7B0006E414 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 039204872DCBCB7A0006E414 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0392048E2DCBCB7A0006E414;
-			remoteInfo = "rive-ios-nested-artboard";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		0392048F2DCBCB7A0006E414 /* rive-ios-nested-artboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rive-ios-nested-artboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0392049C2DCBCB7B0006E414 /* rive-ios-nested-artboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rive-ios-nested-artboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		039204A62DCBCB7B0006E414 /* rive-ios-nested-artboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rive-ios-nested-artboardUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0392048F2DCBCB7A0006E414 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,34 +16,10 @@
 			path = "rive-ios-nested-artboard";
 			sourceTree = "<group>";
 		};
-		0392049F2DCBCB7B0006E414 /* rive-ios-nested-artboardTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "rive-ios-nested-artboardTests";
-			sourceTree = "<group>";
-		};
-		039204A92DCBCB7B0006E414 /* rive-ios-nested-artboardUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "rive-ios-nested-artboardUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0392048C2DCBCB7A0006E414 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039204992DCBCB7B0006E414 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039204A32DCBCB7B0006E414 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				039204912DCBCB7A0006E414 /* rive-ios-nested-artboard */,
-				0392049F2DCBCB7B0006E414 /* rive-ios-nested-artboardTests */,
-				039204A92DCBCB7B0006E414 /* rive-ios-nested-artboardUITests */,
 				039204902DCBCB7A0006E414 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +40,7 @@
 		039204902DCBCB7A0006E414 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0392048F2DCBCB7A0006E414 /* rive-ios-nested-artboard.app */,
-				0392049C2DCBCB7B0006E414 /* rive-ios-nested-artboardTests.xctest */,
-				039204A62DCBCB7B0006E414 /* rive-ios-nested-artboardUITests.xctest */,
+				0392048F2DCBCB7A0006E414 /* MyApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0392048E2DCBCB7A0006E414 /* rive-ios-nested-artboard */ = {
+		0392048E2DCBCB7A0006E414 /* MyApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 039204B02DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboard" */;
+			buildConfigurationList = 039204B02DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "MyApp" */;
 			buildPhases = (
 				0392048B2DCBCB7A0006E414 /* Sources */,
 				0392048C2DCBCB7A0006E414 /* Frameworks */,
@@ -110,58 +63,12 @@
 			fileSystemSynchronizedGroups = (
 				039204912DCBCB7A0006E414 /* rive-ios-nested-artboard */,
 			);
-			name = "rive-ios-nested-artboard";
+			name = MyApp;
 			packageProductDependencies = (
 			);
 			productName = "rive-ios-nested-artboard";
-			productReference = 0392048F2DCBCB7A0006E414 /* rive-ios-nested-artboard.app */;
+			productReference = 0392048F2DCBCB7A0006E414 /* MyApp.app */;
 			productType = "com.apple.product-type.application";
-		};
-		0392049B2DCBCB7B0006E414 /* rive-ios-nested-artboardTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039204B32DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboardTests" */;
-			buildPhases = (
-				039204982DCBCB7B0006E414 /* Sources */,
-				039204992DCBCB7B0006E414 /* Frameworks */,
-				0392049A2DCBCB7B0006E414 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0392049E2DCBCB7B0006E414 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0392049F2DCBCB7B0006E414 /* rive-ios-nested-artboardTests */,
-			);
-			name = "rive-ios-nested-artboardTests";
-			packageProductDependencies = (
-			);
-			productName = "rive-ios-nested-artboardTests";
-			productReference = 0392049C2DCBCB7B0006E414 /* rive-ios-nested-artboardTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		039204A52DCBCB7B0006E414 /* rive-ios-nested-artboardUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 039204B62DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboardUITests" */;
-			buildPhases = (
-				039204A22DCBCB7B0006E414 /* Sources */,
-				039204A32DCBCB7B0006E414 /* Frameworks */,
-				039204A42DCBCB7B0006E414 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				039204A82DCBCB7B0006E414 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				039204A92DCBCB7B0006E414 /* rive-ios-nested-artboardUITests */,
-			);
-			name = "rive-ios-nested-artboardUITests";
-			packageProductDependencies = (
-			);
-			productName = "rive-ios-nested-artboardUITests";
-			productReference = 039204A62DCBCB7B0006E414 /* rive-ios-nested-artboardUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,14 +82,6 @@
 				TargetAttributes = {
 					0392048E2DCBCB7A0006E414 = {
 						CreatedOnToolsVersion = 16.3;
-					};
-					0392049B2DCBCB7B0006E414 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 0392048E2DCBCB7A0006E414;
-					};
-					039204A52DCBCB7B0006E414 = {
-						CreatedOnToolsVersion = 16.3;
-						TestTargetID = 0392048E2DCBCB7A0006E414;
 					};
 				};
 			};
@@ -200,29 +99,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0392048E2DCBCB7A0006E414 /* rive-ios-nested-artboard */,
-				0392049B2DCBCB7B0006E414 /* rive-ios-nested-artboardTests */,
-				039204A52DCBCB7B0006E414 /* rive-ios-nested-artboardUITests */,
+				0392048E2DCBCB7A0006E414 /* MyApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		0392048D2DCBCB7A0006E414 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0392049A2DCBCB7B0006E414 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039204A42DCBCB7B0006E414 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +122,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		039204982DCBCB7B0006E414 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		039204A22DCBCB7B0006E414 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0392049E2DCBCB7B0006E414 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0392048E2DCBCB7A0006E414 /* rive-ios-nested-artboard */;
-			targetProxy = 0392049D2DCBCB7B0006E414 /* PBXContainerItemProxy */;
-		};
-		039204A82DCBCB7B0006E414 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0392048E2DCBCB7A0006E414 /* rive-ios-nested-artboard */;
-			targetProxy = 039204A72DCBCB7B0006E414 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		039204AE2DCBCB7B0006E414 /* Debug */ = {
@@ -442,74 +298,6 @@
 			};
 			name = Release;
 		};
-		039204B42DCBCB7B0006E414 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.agentwaj.rive-ios-nested-artboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rive-ios-nested-artboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rive-ios-nested-artboard";
-			};
-			name = Debug;
-		};
-		039204B52DCBCB7B0006E414 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.agentwaj.rive-ios-nested-artboardTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rive-ios-nested-artboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rive-ios-nested-artboard";
-			};
-			name = Release;
-		};
-		039204B72DCBCB7B0006E414 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.agentwaj.rive-ios-nested-artboardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "rive-ios-nested-artboard";
-			};
-			name = Debug;
-		};
-		039204B82DCBCB7B0006E414 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "io.agentwaj.rive-ios-nested-artboardUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "rive-ios-nested-artboard";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -522,29 +310,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		039204B02DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboard" */ = {
+		039204B02DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "MyApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				039204B12DCBCB7B0006E414 /* Debug */,
 				039204B22DCBCB7B0006E414 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		039204B32DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboardTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039204B42DCBCB7B0006E414 /* Debug */,
-				039204B52DCBCB7B0006E414 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		039204B62DCBCB7B0006E414 /* Build configuration list for PBXNativeTarget "rive-ios-nested-artboardUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				039204B72DCBCB7B0006E414 /* Debug */,
-				039204B82DCBCB7B0006E414 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
