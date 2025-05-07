@@ -3,6 +3,10 @@ import SwiftUI
 
 @main
 struct MyApp: App {
+    init() {
+        RiveLogger.isEnabled = true
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()
